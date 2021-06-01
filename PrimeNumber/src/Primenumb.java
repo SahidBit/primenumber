@@ -27,8 +27,8 @@ public class Primenumb {
 			System.out.printf("%d is a prime", number);
 		else 
 			System.out.printf("%d is a Composite",number);
-		// iteration
 		
+		// iteration
 		for (int i=2; i<number; i++) {
 			System.out.println (" with 1st Iteration: " + i );
 			if (number % i ==0) {
